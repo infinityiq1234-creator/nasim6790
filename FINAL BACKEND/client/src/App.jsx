@@ -1,0 +1,21 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import React from 'react'
+import Navbar from './component/Navbar'
+import Footer from './Component/Footer'
+
+
+const App = () => {
+  return (
+    <>
+        <BrowserRouter>
+            <Navbar/>
+            <Routes>
+                <Route></Route>
+            </Routes>
+            <Footer/>
+        </BrowserRouter>
+    </>
+  )
+}
+
+export default App
